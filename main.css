@@ -1,0 +1,133 @@
+body {
+	background-color: #A9A9A9;
+	margin: 0px 0px;
+	margin-top: -15px;
+}
+
+.lordofcontainer {
+	height: 1000px;
+	width : 1519px;
+}
+
+.container {background-color: white;
+
+    padding-bottom: 100px;
+    border: 2px solid black;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 900px;
+}
+.container1 {display: inline;
+    background-color: white;
+    padding-bottom: 100px;
+    border: 2px solid black;
+    width: 850px;
+    height: 850px;
+    float: left;
+}
+
+.container2 {
+	border: 2px solid;
+	width: 300px;
+	height: 220px;
+	line-height: 120%;
+	padding: 1%;
+	float: left;
+	margin: 10px;
+	margin-top: 0px;
+}
+
+p.signup {
+	font-family: arial;
+}
+
+ul {list-style-type: none;
+	padding : 0;
+	overflow: hidden;
+	border: 2px solid black;
+	background-color: #3b5998;
+	}
+	
+li {
+	float: left;
+	border-right: 1px solid black;
+	}
+
+	
+
+li a {
+	display: block;
+	color: black;
+	padding: 12px 25px;
+	text-decoration: none;
+	background-color: none;
+	font-family: comic sans ms;
+	font-size: 25px;
+
+}
+
+li a:hover:not(.active) {
+    background-color: #0834A4;
+}
+a.active {
+	color: black;
+	background-color: #0834A4;
+}
+
+li.more-content {
+	display: inline-block;
+
+}
+
+.content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 80px;
+	border: 1px solid black;
+
+}
+
+.more-content:hover .content{
+	display: block;
+	z-index: 1;
+}
+
+.text {
+	padding-left: 10px;
+}
+
+.text2 {
+	border: 1px solid black;
+	margin-left: 180px;
+	margin-right: 180px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding: 25px;
+	line-height: 120%;
+}
+
+p {font-size: 20px;
+	font-family: comic sans ms;
+	text-indent: 30px;
+}
+
+h3 {font-size: 25px;}
+
+img {height: 200px;
+	width: 200px;
+	border: 2px solid black;}
+
+h1 {text-align: center;
+}
+
+footer {
+	margin-left: 10px;
+}
+
+
+p.footer {
+	font-size: 11px;
+	text-indent: 0px;
+	line-height: 100%;
+}
